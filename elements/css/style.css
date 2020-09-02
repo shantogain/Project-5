@@ -5,63 +5,16 @@ body{
 }
 
 /*!----------------REUSABLE CSS------------------- */
-.button{
-    border: 2px solid white;
-    border-radius: 30px;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 8px 25px;
-    color: white;
-    
-
-}
-
-.button:hover{
-    text-decoration: none;
-    color: white;    
-}
-.button-custom:hover{
-    background-color: #2dc997;
-    transition: 0.3s;
-
-}
 
 
 
 
 /*!----------------REUSABLE CSS------------------- */
-.main-header{
-    background-image: url(/elements/img/header-bg.jpg);
+.section-heading{
+    background-image: url(/elements/images/bg_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     height: 100vh;   
-}
-.main-header__inner-container{
-    height: 100vh;
-    
-    
-}
-.main-header__text-container{
-    position: absolute;
-}
-.text-white{
-    font-weight: 700;
-    font-size: 50px;
-}
-.para{
-    font-size: 24px;
-}
-.section-about__item-container{
-    color: black;
-    font-size: 18px;
-}
-
-.call-to-action{
-    background: url(/elements/img/call-to-action-bg.jpg);
-    background-size: initial;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    height: auto;   
 }
